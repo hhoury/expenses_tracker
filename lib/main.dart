@@ -2,6 +2,9 @@ import 'package:expenses_tracker_app/expenses.dart';
 import 'package:flutter/material.dart';
 
 void main() {
+  // WidgetsFlutterBinding.ensureInitialized();
+  // SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp])
+  //     .then((fn) => runApp(const MyApp()));
   runApp(const MyApp());
 }
 
